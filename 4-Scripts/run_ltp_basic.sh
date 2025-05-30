@@ -4,7 +4,7 @@ This folder is intended for useful automation scripts related to Linux Test Proj
 
 ---
 
-## ✅ Task for Juniors
+## ✅ Task for you
 
 As part of continuing the internship work, you are expected to:
 1. Understand how the `runltp` command works.
