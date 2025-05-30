@@ -1,0 +1,44 @@
+Test Start Time: Wed Jan  8 13:22:32 2025
+-----------------------------------------
+Testcase                                           Result     Exit Value
+--------                                           ------     ----------
+abort01                                            PASS       0    
+accept01                                           PASS       0    
+accept02                                           PASS       0    
+accept03                                           PASS       0    
+accept4_01                                         PASS       0    
+access01                                           PASS       0    
+access02                                           PASS       0    
+access03                                           PASS       0    
+access04                                           PASS       0    
+acct01                                             PASS       0    
+acct02                                             PASS       0    
+add_key01                                          PASS       0    
+add_key02                                          PASS       0    
+add_key03                                          PASS       0    
+add_key04                                          PASS       0    
+add_key05                                          PASS       0    
+adjtimex01                                         PASS       0    
+adjtimex02                                         PASS       0    
+adjtimex03                                         PASS       0    
+alarm02                                            PASS       0    
+alarm03                                            PASS       0    
+alarm05                                            PASS       0    
+alarm06                                            PASS       0    
+alarm07                                            PASS       0    
+arch_prctl01                                       PASS       0    
+bind01                                             PASS       0    
+bind02                                             PASS       0    
+bind03                                             PASS       0    
+bind04                                             PASS       0    
+bind05                                             PASS       0    
+bind06                                             FAIL       34   
+
+-----------------------------------------------
+Total Tests: 1435
+Total Skipped Tests: 0
+Total Failures: 1
+Kernel Version: 6.8.0-41-generic
+Machine Architecture: x86_64
+Hostname: kavi-HP-Laptop-15s-du3xxx
+
