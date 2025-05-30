@@ -15,26 +15,22 @@ As part of continuing the internship work, you are expected to:
 
 File: `run_ltp_basic.sh`
 
-
+```
 #!/bin/bash
 # run_ltp_basic.sh - Basic automation to run LTP tests and save logs
 
 # Create logs folder if not exists
-```
 mkdir -p ~/ltp_logs
-```
+
 # Run Memory Test
-```
 echo "Running Memory Tests..."
 sudo /opt/ltp/runltp -f mm -o ~/ltp_logs/mem-test.log
-```
+
 # Run File System Test
-```
 echo "Running File System Tests..."
 sudo /opt/ltp/runltp -f fs -o ~/ltp_logs/fs-test.log
-```
+
 # Success message
-```
 echo "✅ Tests completed. Logs saved in ~/ltp_logs/"
 ```
 # Run it using:
