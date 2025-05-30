@@ -17,8 +17,9 @@ In Linux Test Project (LTP), there are two major ways to run test suites:
 - Fully compatible with Ubuntu 24.04 without additional config.
 
 ### ✅ Sample usage:
+```
 sudo /opt/ltp/runltp -f mm -o ~/ltp_logs/mem-test.log
-
+```
 ### 2. kirk (New Framework - Not Used)
 Note: I did not use kirk during this internship, but I am including this section for awareness.
 
@@ -42,4 +43,4 @@ Note: I did not use kirk during this internship, but I am including this section
 
 ### Conclusion
 This project focused on runltp to validate memory and file system performance.
-For future exploration or advanced automation, juniors may optionally explore kirk
+For future exploration or advanced automation, you may optionally explore kirk
