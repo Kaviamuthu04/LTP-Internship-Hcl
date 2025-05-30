@@ -50,11 +50,13 @@ Add at least one useful script to automate or simplify LTP-related activities. Y
 | `extract_failures.sh`    | Extract failed test cases from log files            |
 
 # Submit your script by:
-   Adding it to this folder (scripts/)
-   Commenting each step inside the script
-   Testing it and verifying the output
+
+Adding it to this folder (scripts/).
+Commenting each step inside the script.
+Testing it and verifying the output.
 
 # Goal
+
 By the end of this task, you will:
     Learn shell scripting basics
     Automate common testing procedures
