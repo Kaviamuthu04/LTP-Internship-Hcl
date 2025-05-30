@@ -38,7 +38,7 @@ echo "✅ Tests completed. Logs saved in ~/ltp_logs/"
 chmod +x scripts/run_ltp_basic.sh
 ./scripts/run_ltp_basic.sh
 ```
-#📌 Your Task
+# 📌 Your Task
 
 Add at least one useful script to automate or simplify LTP-related activities. You can pick from the ideas below:
 | Script Name              | Purpose                                             |
@@ -50,9 +50,9 @@ Add at least one useful script to automate or simplify LTP-related activities. Y
 | `extract_failures.sh`    | Extract failed test cases from log files            |
 
 # Submit your script by:
-    Adding it to this folder (scripts/)
-    Commenting each step inside the script
-    Testing it and verifying the output
+   Adding it to this folder (scripts/)
+   Commenting each step inside the script
+   Testing it and verifying the output
 
 # Goal
 By the end of this task, you will:
