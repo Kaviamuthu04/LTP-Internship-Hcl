@@ -7,9 +7,9 @@ This guide explains how to install, build, and run the Linux Test Project (LTP) 
 ### Step 1: Update your system
 
 Open terminal and run:
-
+```bash
 sudo apt update && sudo apt upgrade -y
-
+```
 ### Step 2: Install required dependencies
 
 Install all necessary packages:
