@@ -1,4 +1,4 @@
-Test Start Time: Wed Oct 15e 13:22:32 2025
+Test Start Time: Thu Jun 27 13:22:32 2024
 -----------------------------------------
 Testcase                                           Result     Exit Value
 --------                                           ------     ----------
@@ -32,13 +32,13 @@ bind02                                             PASS       0
 bind03                                             PASS       0    
 bind04                                             PASS       0    
 bind05                                             PASS       0    
-bind06                                             FAIL       34   
+bind06                                             PASS       0   
 
 -----------------------------------------------
 Total Tests: 1435
 Total Skipped Tests: 0
-Total Failures: 1
-Kernel Version: 6.8.0-41-generic
+Total Failures: 0
+Kernel Version: 6.6.32-rt
 Machine Architecture: x86_64
 Hostname: kavi-HP-Laptop-15s-du3xxx
 
