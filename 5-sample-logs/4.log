@@ -2,13 +2,13 @@ Test Start Time: Wed Jan  8 13:18:06 2025
 -----------------------------------------
 Testcase                                           Result     Exit Value
 --------                                           ------     ----------
-gf01                                               FAIL       2    
+gf01                                               PASS       0  
 
 -----------------------------------------------
 Total Tests: 68
 Total Skipped Tests: 0
-Total Failures: 1
-Kernel Version: 6.8.0-41-generic
+Total Failures: 0
+Kernel Version: 6.6.32-rt
 Machine Architecture: x86_64
 Hostname: kavi-HP-Laptop-15s-du3xxx
 
