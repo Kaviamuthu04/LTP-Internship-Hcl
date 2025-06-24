@@ -7,13 +7,13 @@ mm02                                               PASS       0
 mtest01                                            PASS       0    
 mtest01w                                           PASS       0    
 mtest05                                            PASS       0    
-mtest06                                            FAIL       2    
+mtest06                                            PASS       0         
 
 -----------------------------------------------
 Total Tests: 77
 Total Skipped Tests: 0
-Total Failures: 1
-Kernel Version: 6.8.0-41-generic
+Total Failures: 0
+Kernel Version: 6.6.32-rt
 Machine Architecture: x86_64
 Hostname: kavi-HP-Laptop-15s-du3xxx
 
