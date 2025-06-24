@@ -7,7 +7,7 @@ gf01                                               PASS       0
 -----------------------------------------------
 Total Tests: 68
 Total Skipped Tests: 0
-Total Failures: 1
+Total Failures: 0
 Kernel Version: 6.6.32-rt
 Machine Architecture: x86_64
 Hostname: kavi-HP-Laptop-15s-du3xxx
