@@ -1,0 +1,35 @@
+#!/bin/bash
+# ----------------------------------------------------------------------
+# 1. Configuration Variables
+# ----------------------------------------------------------------------
+LTP_DIR="/path/to/ltp"  # IMPORTANT: Change this to your actual LTP directory
+OUTPUT_DIR="ltp_test_results_$(date +%Y%m%d_%H%M%S)"
+LOG_FILE="$OUTPUT_DIR/ltp_execution.log"
+
+# ----------------------------------------------------------------------
+# 2. Setup and Execution
+# ----------------------------------------------------------------------
+echo "Starting LTP Test Automation at $(date)" | tee -a $LOG_FILE
+
+# Check if the LTP directory exists
+if [ ! -d "$LTP_DIR" ]; then
+    echo "Error: LTP directory not found at $LTP_DIR. Exiting." | tee -a $LOG_FILE
+    exit 1
+fi
+
+# Change to the LTP directory
+cd "$LTP_DIR" || { echo "Error: Failed to change directory. Exiting." | tee -a $LOG_FILE; exit 1; }
+
+# Create the output directory
+mkdir -p "$OUTPUT_DIR"
+
+# Run the test suite
+echo "Running LTP tests. Output is being redirected to $LOG_FILE..." | tee -a $LOG_FILE
+./runalltests.sh -o "$OUTPUT_DIR/results.html" &> "$LOG_FILE"
+
+# ----------------------------------------------------------------------
+# 3. Finalization
+# ----------------------------------------------------------------------
+echo "LTP Test execution finished." | tee -a $LOG_FILE
+echo "Results are available in the directory: $OUTPUT_DIR" | tee -a $LOG_FILE
+echo "Script finished at $(date)" | tee -a $LOG_FILE
